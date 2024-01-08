@@ -9,6 +9,7 @@ import WishList from "./pages/WishList";
 import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route element={<Cart />} path="/cart" />
         <Route element={<Login />} path="/login" />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { Button, Container } from '../utils/Utils'
 import Child from '../assets/header.jpg'
 const Header = () => {
     return (
-        <div className="header">
+        <div className="header mt-8">
             <Container>
                 <div className='flex items-center justify-between'>
                     <div className="header-info">

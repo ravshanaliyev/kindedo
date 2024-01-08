@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       borderRadius: { extraLarge: "10rem" },
+      blur: { xs: "2px" },
     },
   },
   plugins: [],
