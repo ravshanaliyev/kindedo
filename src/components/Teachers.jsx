@@ -9,13 +9,13 @@ const Teachers = () => {
         <div className='mb-12 mt-10 py-15'>
             <Container>
                 <div className="text-center my-10">
-                    <h2 className='text-[#1b1b1b] text-[50px]'>Our Best Teachers</h2>
-                    <p className='text-[#424242] text-[18px]'>With the help of teachers and the environment as the third teacher, students
+                    <h2 className='text-[#1b1b1b] text-[32px] lg:text-[50px]'>Our Best Teachers</h2>
+                    <p className='text-[#424242] text-[16px] lg:text-[18px]'>With the help of teachers and the environment as the third teacher, students
                         have opportunities to confidently take risks.</p>
                 </div>
-                <div className="teachers flex flex-wrap gap-8">
+                <div className=" flex flex-wrap gap-8 ">
                     {teachers.map((teacher, index) => (
-                        <div key={index} className="teacher relative w-[300px] shadow-lg">
+                        <div key={index} className="teacher relative w-[200px] lg:w-[280px] mx-auto shadow-lg mb-4">
                             <img src={teacher.img} className='h-full' alt="" />
                             <h3 className='text-[#1b1b1b] text-[24px] text-center bg-[#fff] w-full font-bold'>{teacher.name}</h3>
                         </div>

@@ -13,7 +13,7 @@ const Info = () => {
                         <img className='w-[400px] lg:w-[600px] px-6 rounded-tr-extraLarge rounded-bl-extraLarge' src={Child} alt="" />
                     </div>
                     <div className="px-4 w-[450px] lg:w-[600px]">
-                        <h3 className='text-[#1b1b1b] text-[32px] lg:text-[50px] font-bold'>Best for Your Kids
+                        <h3 className='text-[#1b1b1b] text-[32px] lg:text-[50px] font-bold mt-3'>Best for Your Kids
                         </h3>
                         <p className='text-[#424242] text-[16px] lg:text-[20px]'>Being brave isn’t always a grand gesture sometimes it just means having a go attempting that difficult question, offering an answer in a lesson when you’re simply really trying new.</p>
                         <div className="flex items-center my-8 justify-around bg-[#00bbae] text-[#fff] py-[16px] px-[40px] rounded-[24px]">
@@ -42,9 +42,11 @@ const Info = () => {
                             <p className='text-[18px]'>Teachers make a difference of your child.</p>
                         </div>
                         <div className="flex gap-8 my-5 items-center">
-                            <ButtonMain text="View More" type="button" />
+                            <Link to={"/shop"}>
+                                <ButtonMain text="View More" type="button" />
+                            </Link>
                             <div className="flex">
-                                <Link to={"/"} className='flex items-center gap-2  hover:text-[#00bbae]'>
+                                <Link to={"/shop"} className='flex items-center gap-2  hover:text-[#00bbae]'>
                                     <img src={Play} width={40} height={40} alt="" />
                                     <p className='text-[18px]'>Promotional Video</p>
                                 </Link>

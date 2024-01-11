@@ -13,11 +13,11 @@ const Accardion = () => {
     return (
         <div className='my-10'>
             <Container>
-                <div className="flex items-center justify-between">
+                <div className="block lg:flex lg:items-center lg:justify-between">
                     <div>
-                        <h2 className='text-[#1b1b1b] text-[64px] font-bold'>Know More
+                        <h2 className='text-[#1b1b1b] text-[40px] lg:text-[64px] font-bold'>Know More
                             About Kindedo</h2>
-                        <Accordion className='w-[500px]'>
+                        <Accordion className='w-[450px] lg:w-[500px] my-4'>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>

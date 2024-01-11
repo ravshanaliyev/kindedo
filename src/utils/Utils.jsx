@@ -1,5 +1,5 @@
 const Container = ({ children }) => {
-  return <div className="w-[1320px] mx-auto">{children}</div>;
+  return <div className="max-w-[1350px] mx-auto px-4">{children}</div>;
 };
 
 const ButtonMain = ({ text, icon, click, type }) => {

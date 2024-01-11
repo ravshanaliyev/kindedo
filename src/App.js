@@ -10,11 +10,12 @@ import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Footer from "./components/Footer";
+import "./app.css";
 
 function App() {
   return (
     <div className="App">
-      {/* <CollapseDefault /> */}
+      <CollapseDefault />
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<About />} path="/about" />

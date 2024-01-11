@@ -10,11 +10,11 @@ const Program = () => {
         <div className='my-10 py-10 bg-[#f5f2f2]'>
             <Container>
                 <div className="text-center my-10">
-                    <h2 className='text-[#1b1b1b] text-[50px]'>Our Programs</h2>
-                    <p className='text-[#424242] text-[18px]'>Kindedo opened its doors in 1984 with a unique vision to provide its students
+                    <h2 className='text-[#1b1b1b] text-[40px] lg:text-[50px] '>Our Programs</h2>
+                    <p className='text-[#424242] text-[16px] lg:text-[20px]'>Kindedo opened its doors in 1984 with a unique vision to provide its students
                         with a globally focused study of arts.</p>
                 </div>
-                <div className="program flex flex-wrap gap-8">
+                <div className="program flex flex-wrap gap-x-8 gap-y-2">
                     {datas.map((data, index) => (
                         <ProgramCard key={index} {...data} />
                     ))}

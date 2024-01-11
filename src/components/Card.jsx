@@ -9,10 +9,10 @@ const Card = ({ icon, title, desc }) => {
                 <div className="card-icon bg-[#fff8eb] w-[120px] h-[120px] mx-auto  flex justify-center items-center text-[64px] rounded-full">
                     {icon}
                 </div>
-                <div className="card-title text-[#1b1b1b] text-[32px] font-bold my-3">
+                <div className="card-title text-[#1b1b1b] text-[24px] lg:text-[32px]  font-bold my-3">
                     {title}
                 </div>
-                <div className="card-desc text-[#424242] text-[18px] mb-[15px]">
+                <div className="card-desc text-[#424242] text-[16px] lg:text-[18px] mb-[15px]">
                     {desc}
                 </div>
                 <Link to={"/about"}>
