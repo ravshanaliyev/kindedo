@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { CollapseDefault, NavbarDefault } from "./components/Navbar";
 import About from "./pages/About";
 import Programs from "./pages/Programs";
 import Shop from "./pages/Shop";
@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <CollapseDefault />
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<About />} path="/about" />

@@ -1,18 +1,21 @@
 import React from 'react'
-import { Button, Container } from '../utils/Utils'
+import { ButtonMain, Container } from '../utils/Utils'
 import Child from '../assets/header.jpg'
+import { Link } from 'react-router-dom'
 const Header = () => {
     return (
-        <div className="header mt-8">
+        <div className="header mt-8 relative z-50">
             <Container>
-                <div className='flex items-center justify-between'>
+                <div className='block lg:flex items-center justify-between px-4'>
                     <div className="header-info">
-                        <h3 className='text-[#00bbae] text-[24px] font-bold'>Kindergarten Program</h3>
-                        <h1 className='text-[#111] text-[70px] font-bold'>Best Children’s Education</h1>
-                        <Button text="Admission Open 22-23" type="button" />
+                        <h3 className='text-[#00bbae] text-[18px] lg:text-[24px] font-bold'>Kindergarten Program</h3>
+                        <h1 className='text-[#111] text-[40px] lg:text-[64px] font-bold w-fit'>Best Children’s Education </h1>
+                        <Link to={"/news"} className='my-3'>
+                            <ButtonMain text="Admission Open 22-23" type="button" />
+                        </Link>
                     </div>
                     <div className="header-img">
-                        <img className='w-[600px] rounded-xl' src={Child} alt="" />
+                        <img className='w-[400px] lg:w-[600px] mt-5 lg:mt-0 rounded-xl' src={Child} alt="" />
                     </div>
                 </div>
             </Container>

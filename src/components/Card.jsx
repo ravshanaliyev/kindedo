@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '../utils/Utils'
+import { ButtonMain } from '../utils/Utils'
 
 const Card = ({ icon, title, desc }) => {
     return (
@@ -14,7 +14,7 @@ const Card = ({ icon, title, desc }) => {
                 <div className="card-desc text-[#424242] text-[18px] mb-[15px]">
                     {desc}
                 </div>
-                <Button text="View Details" />
+                <ButtonMain text="View Details" />
             </div>
         </div>
     )

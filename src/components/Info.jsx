@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button } from '../utils/Utils'
+import { Container, ButtonMain } from '../utils/Utils'
 import Child from '../assets/info.png'
 import { FaAngleRight } from "react-icons/fa6";
 import Play from '../assets/play.png'
@@ -42,7 +42,7 @@ const Info = () => {
                             <p className='text-[18px]'>Teachers make a difference of your child.</p>
                         </div>
                         <div className="flex gap-8 my-5 items-center">
-                            <Button text="View More" type="button" />
+                            <ButtonMain text="View More" type="button" />
                             <div className="flex">
                                 <Link to={"/"} className='flex items-center gap-2  hover:text-[#00bbae]'>
                                     <img src={Play} width={40} height={40} alt="" />
