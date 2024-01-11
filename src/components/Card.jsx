@@ -1,5 +1,6 @@
 import React from 'react'
 import { ButtonMain } from '../utils/Utils'
+import { Link } from 'react-router-dom'
 
 const Card = ({ icon, title, desc }) => {
     return (
@@ -14,7 +15,9 @@ const Card = ({ icon, title, desc }) => {
                 <div className="card-desc text-[#424242] text-[18px] mb-[15px]">
                     {desc}
                 </div>
-                <ButtonMain text="View Details" />
+                <Link to={"/about"}>
+                    <ButtonMain text="View Details" />
+                </Link>
             </div>
         </div>
     )

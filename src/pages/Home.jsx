@@ -11,8 +11,8 @@ const Home = () => {
     return (
         <div>
             <Header />
-            {/* <Cards />
-            <Info />
+            <Cards />
+            {/* <Info />
             <Program />
             <Accardion />
             <Teachers /> */}
