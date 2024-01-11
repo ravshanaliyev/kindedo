@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <CollapseDefault />
+      {/* <CollapseDefault /> */}
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<About />} path="/about" />
